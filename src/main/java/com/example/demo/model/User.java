@@ -51,3 +51,5 @@ public class User {
     @OneToMany(mappedBy = "author")
     private List<Commit> commits = new ArrayList<>();
 }
+
+
